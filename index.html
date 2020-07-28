@@ -1,38 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Leccione de JavaScript</title>
+  <title>Lecciones de JavaScript</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="shortcut icon" href="imagenes/js.ico" type="image/x-icon" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-  .vertical-menu {
-    width: 200px;
-  }
-
-  .vertical-menu a {
-    background-color: #eee;
-    color: black;
-    display: block;
-    padding: 12px;
-    text-decoration: none;
-  }
-
-  .vertical-menu a:hover {
-    background-color: #ccc;
-  }
-
-  .vertical-menu a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  .navbar{
-    margin-bottom: 0px;
-  }
-  </style>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>
 
@@ -44,18 +20,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <a class="navbar-brand" href="./index.html">
+        <img class="img-responsive" src="./imagenes/js.png" style="max-width: 30px; margin-top: -7px;">
+      </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li><a href="./crud/CRUD.html">CRUD</a></li>
+        <li><a href="./crudJsModerno/CRUDmoderno.html">CRUDmoderno</a></li>
+        <li><a href="./colorsRGB/colorsRGB.html">Colors RGB</a></li>
+        <li><a href="./paises/paises.html">Países</a></li>
+        <li><a href="./usuarios/usuarios.html">Usuarios</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="./sobreMi/sobreMi.html"><span class="glyphicon glyphicon-user"></span> Sobre mi</a></li>
       </ul>
     </div>
   </div>
@@ -63,9 +41,8 @@
 
 <div class="jumbotron text-center">
   <h1>Aprende JavaScript Conmigo</h1>
-  <p>Tulio H. - Leccione de JavaScript - Ola Mundo</p> 
+  <p>Tulio H. - Lecciones de JavaScript</p> 
 </div>
-
 
 <div class="container">
   <div class="row">
@@ -73,7 +50,7 @@
     <div class="col-sm-10">
     	<center>
 		  	<button type="button" class="btn" onclick="document.getElementById('demo').innerHTML = '¡Hola Mundo!'">
-				Haga clic en mí para mostrar una saudación.
+				Haga clic en mí para mostrar una salutación.
 			</button>
 			<h2 id="demo"></h1>
     	</center>

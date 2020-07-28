@@ -1,3 +1,7 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/TulioHenrique/AprendeJavaScriptConmigo)
+![GitHub top language](https://img.shields.io/github/languages/top/TulioHenrique/AprendeJavaScriptConmigo)
+![GitHub language count](https://img.shields.io/github/languages/count/TulioHenrique/AprendeJavaScriptConmigo)
+
 # Aprende JavaScript Conmigo
 
 Hola personas, bienvenidos para mi lecciones JavaScript.
